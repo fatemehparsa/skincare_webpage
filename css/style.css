@@ -1,3 +1,7 @@
-body{
-    background-color: blue;
+:root{
+    __color_primary:#256406;
+    __color_secodary:#009A85;
+    __color_accent:#824C33;
+    __color_headings:#002101;
+    __color_body:#99DC7A;
 }
