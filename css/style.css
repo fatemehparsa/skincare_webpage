@@ -152,5 +152,12 @@ li{
 .icon--secondary{
     fill: var(--color-secondary);
 }
+.icon-container{
+    background: #536648;
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    display: inline-block;
 
+}
 
