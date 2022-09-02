@@ -132,7 +132,7 @@ li{
     list-style: none;
 }
 
-ul li::before{
+.list--tick .list__item::before{
     filter: invert(24%) sepia(47%) saturate(2397%) hue-rotate(70deg) brightness(101%) contrast(95%);
     content: '';
     display: inline-block;
