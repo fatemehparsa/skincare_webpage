@@ -102,7 +102,7 @@ a{
     
 }
 /*lists*/
-list{
+.list{
     list-style: none;
     padding-left: 0;
     color: var(--color-headings);
@@ -128,17 +128,6 @@ list{
     }
     
 }
-/*icons*/
-.icon{
-    width: 40px;
-    height: 40px;
-}
-.icon--primary{
-    fill: var(--color-primary);
-}
-.icon--secondary{
-    fill: var(--color-secondary);
-}
 li{
     list-style: none;
 }
@@ -152,4 +141,16 @@ ul li::before{
     background-image: url(../images/tick-svgrepo-com.svg);
     margin-right: 0.5rem;
 }
+/*icons*/
+.icon{
+    width: 40px;
+    height: 40px;
+}
+.icon--primary{
+    fill: var(--color-primary);
+}
+.icon--secondary{
+    fill: var(--color-secondary);
+}
+
 
