@@ -153,11 +153,14 @@ li{
     fill: var(--color-secondary);
 }
 .icon-container{
-    background: #536648;
+    background: #c0eba7;
     width: 64px;
     height: 64px;
     border-radius: 100%;
-    display: inline-block;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
 
 }
 
